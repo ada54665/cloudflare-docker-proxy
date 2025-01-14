@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  ["docker.nas1.cbclat.cn]: dockerHub,
-  ["quay.nas1.cbclat.cn]: "https://quay.io",
-  ["gcr.nas1.cbclat.cn]: "https://gcr.io",
-  ["k8s-gcr.nas1.cbclat.cn]: "https://k8s.gcr.io",
-  ["k8s.nas1.cbclat.cn]: "https://registry.k8s.io",
-  ["ghcr.nas1.cbclat.cn]: "https://ghcr.io",
-  [nas1.cbclat.cn]: "https://docker.cloudsmith.io",
-  ["ecr.nas1.cbclat.cn]: "https://public.ecr.aws",
+  ["docker.cbclat.cn]: dockerHub,
+  ["quay.cbclat.cn]: "https://quay.io",
+  ["gcr.cbclat.cn]: "https://gcr.io",
+  ["k8s-gcr.cbclat.cn]: "https://k8s.gcr.io",
+  ["k8s.cbclat.cn]: "https://registry.k8s.io",
+  ["ghcr.cbclat.cn]: "https://ghcr.io",
+  [cbclat.cn]: "https://docker.cloudsmith.io",
+  ["ecr.cbclat.cn]: "https://public.ecr.aws",
 
   // staging
-  ["docker-staging.nas1.cbclat.cn]: dockerHub,
+  ["docker-staging.cbclat.cn]: dockerHub,
 };
 
 function routeByHosts(host) {
